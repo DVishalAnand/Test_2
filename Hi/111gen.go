@@ -8,4 +8,4 @@ LICENSE file in the root directory of this source tree.
 
 //go:generate bash -c "protoc -I /usr/include --proto_path=$MAGMA_ROOT --go_out=plugins=grpc:$MAGMA_ROOT/.. $MAGMA_ROOT/cwf/protos/mconfig/*.proto"
 package protos
-## This is change
+## This is change we are doing for test-1
